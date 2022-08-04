@@ -59,20 +59,22 @@ function Dashboard() {
     function answerHandler(e: React.MouseEvent<HTMLLIElement>) {
         setAttempts((atts) => atts + 1);
         const answer = e.currentTarget;
-
-        if (answer.dataset.id == randomSongData?.id) {
-            answer.className="right";
-            setRightAnswer(true);
-            let score:number = getScore(attempts);
-            setScore(score);
-            setAttempts(1);
-            setDisable(false);
-            setActiveBtn(true);
-        }  else {
-            
-            return answer.className="wrong";
-        }
         
+            if (answer.dataset.id == randomSongData?.id) {
+                answer.className="right";
+                setRightAnswer(true);
+                let score:number = getScore(attempts);
+                setScore(score);
+                setAttempts(1);
+                setDisable(false);
+                setActiveBtn(true);
+            }  else {
+                
+                return answer.className="wrong";
+            }
+            
+        
+       
     }
 
     function nextBtnHandler() {        
@@ -122,7 +124,7 @@ function Dashboard() {
                     <span className="player-score">You score: {score}</span>
                 </div>
             </header>
-            <div className="container">
+            <div className="container default-background-img">
                 <ProgressBar data={musicData}/>
                 <div className="main-content">
                     <aside>
