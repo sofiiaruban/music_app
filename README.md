@@ -9,7 +9,6 @@ Music Quiz App
 
 ## <h1>Design</h1>
 
-<img src= "src/wireframes/basic_calendar.png" alt= "Basic calendar view">
-<img src= "src/wireframes/filtered_calendar.png" alt= "Filter by name">
-<img src= "src/wireframes/create_new_event.png" alt= "Create a new event">
-<img src= "src/wireframes/delete_event.png" alt= "Delete the event">
+<img src= "design/slide1.png"> <img src= "design/slide2.png">
+<img src= "design/slide3.png">  <img src= "design/slide4.png">
+<img src= "design/slide5.png">
