@@ -114,7 +114,7 @@ audio  {
 }
 @media screen and (max-width: 635px) {
   audio {
-    width: 260%;
+    width: 260px;
   }
  
 }
@@ -173,6 +173,7 @@ audio  {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 .logo {
   display: flex;
@@ -266,7 +267,7 @@ button::after{
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0 0 5px 0;
+  margin: 0 0 15px 0;
 }
 .player-name:first-letter {
   text-transform: uppercase;

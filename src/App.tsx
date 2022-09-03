@@ -20,7 +20,7 @@ export const UserNameContext = createContext<NameContext>({
   name: '', 
   setName: () =>  {},
 })
-//some text 
+
 function App(){
   
   const [totalScore, setTotalScore] = useState<number>(0);

@@ -11,18 +11,10 @@ function Auth() {
   const [activeBtn, setActiveBtn] = useState<boolean>(false);
   const [disable, setDisable] = useState<boolean>(true);
 
-   
-
   const handleChange=(e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
     setName(e.currentTarget.value);  
     sessionStorage.setItem('name', e.currentTarget.value);
-  }
-
-  let btnClass = 'disabled-btn';
-  
-  if (activeBtn) {
-    btnClass = 'active-btn';
   }
 
   const handleFocus = () => {
@@ -47,7 +39,7 @@ function Auth() {
           <form onSubmit={submitHandler}>
               <input type="text" value={name} placeholder="Type your name here..." required  onChange={handleChange} onFocus={handleFocus} onBlur={handleBlur}/>
               <div className="btn-center">
-                <Button typeBtn={"submit"} btnClass={btnClass} disabledBtn={disable}>Start quiz</Button>
+                <Button typeBtn={"submit"} btnClass={activeBtn ? 'active-btn' : 'disabled-btn'} disabledBtn={disable}>Start quiz</Button>
               </div>
           </form>
           </div>
