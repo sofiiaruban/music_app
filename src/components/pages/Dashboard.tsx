@@ -104,12 +104,12 @@ function Dashboard() {
         
     }
      // switch btn
-    let btnClass = 'disabled-btn';
-  
-    if (activeBtn) {
-
-       btnClass = 'active-btn';
-    }
+    //let btnClass = 'disabled-btn';
+  //
+    //if (activeBtn) {
+//
+    //   btnClass = 'active-btn';
+    //}
      
     if(!musicData.length) {
         return <div>Loading...</div>
@@ -151,7 +151,7 @@ function Dashboard() {
             </div>
             <div className="next-button">
                 <Button 
-                    btnClass={"next-btn "+ btnClass}
+                    btnClass={`next-btn ${activeBtn ? 'active-btn' : 'disabled-btn'}`}
                     disabledBtn={disable}
                     onClick={(genreIndex < 3) ? nextBtnHandler : seeScoreBtnHandler}>{(genreIndex < 3) ? "Next Question" : "See My Score"}
                 </Button>
