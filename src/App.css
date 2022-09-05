@@ -168,6 +168,13 @@ audio  {
   }
   
 }
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
 .login-wrapper {
   display: flex;
   flex-direction: column;
