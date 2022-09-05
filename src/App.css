@@ -227,6 +227,12 @@ input {
   color: #ffffff;
  
 }
+input:hover, input:focus {
+  border-bottom: 1px solid #ffffff;
+}
+input:focus{
+  outline: none;
+}
 /*Button*/
 button {
   text-transform: uppercase;
