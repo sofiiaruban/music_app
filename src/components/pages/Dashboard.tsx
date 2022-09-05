@@ -95,24 +95,9 @@ function Dashboard() {
         sessionStorage.setItem('totalScore', JSON.stringify(totalScore));
         navigate('/finalscore');
     }
-   
-     // switch class desc block     
-    let classDescriptionBlock = "description-block";
-
-     if (rightAnswer) {
-         classDescriptionBlock ="show";
-        
-    }
-     // switch btn
-    //let btnClass = 'disabled-btn';
-  //
-    //if (activeBtn) {
-//
-    //   btnClass = 'active-btn';
-    //}
-     
+    
     if(!musicData.length) {
-        return <div className="loading">Loading...</div>
+        return <div className="loading">Loading ...</div>
     }
 
     return (
@@ -138,7 +123,7 @@ function Dashboard() {
                             </li>)}
                         </ul>
                     </aside>
-                    <div className = {classDescriptionBlock}>
+                    <div className = {rightAnswer ? "show" : "description-block"}>
                         <h3>{randomSongData?.name} - {randomSongData?.songTitle}</h3>
                         <figure>
                             <img src={"https://levi9-song-quiz.herokuapp.com/api/" + randomSongData?.image}
