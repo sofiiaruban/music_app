@@ -175,7 +175,17 @@ audio  {
   margin-top: -50px;
   margin-left: -50px;
   font-size: 30px;
+  display: inline;
 }
+.dots {
+    width: 20px;
+    aspect-ratio: 4;
+    background: radial-gradient(circle closest-side,#fff 90%,#ffff) 0/calc(100%/3) 100% space;
+    clip-path: inset(0 100% 0 0);
+    animation: dot 1s steps(4) infinite; 
+}
+@keyframes dot {to{clip-path: inset(0 -34% 0 0)}}
+
 .login-wrapper {
   display: flex;
   flex-direction: column;
@@ -432,7 +442,7 @@ aside {
   height: 30px;
   border: 1px solid #373B62;
   border-radius: 50%;
-  margin: -6px 10px 0 5px;
+  margin: -5px 10px 0 5px;
   text-align: center;
 }
 

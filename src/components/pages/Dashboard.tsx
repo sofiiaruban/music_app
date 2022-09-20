@@ -97,7 +97,9 @@ function Dashboard() {
     }
     
     if(!musicData.length) {
-        return <div className="loading">Loading ...</div>
+        return (<div className="loading">
+            Loading <div className="dots"></div>
+        </div>)
     }
 
     return (
