@@ -1,11 +1,12 @@
 
 import { useNavigate } from "react-router-dom";
-declare var require: any;
-const logo: string = require("../../imgs/logo.svg").default;
-
 import React, {FormEvent, useContext, useState} from "react";
 import { UserNameContext } from "../../App";
 import Button from "../UI/Button";
+declare var require: any;
+const logo: string = require("../../imgs/logo.svg").default;
+
+
 
 function Auth() {
   const navigate = useNavigate();
