@@ -9,6 +9,5 @@ Music Quiz App
 
 ## <h1>Design</h1>
 
-<img src= "design/slide1.png"> <img src= "design/slide2.png">
-<img src= "design/slide3.png">  <img src= "design/slide4.png">
-<img src= "design/slide5.png">
+<img src= "design/auth.png"> <img src= "design/music_app.png">
+<img src= "design/result.png"> 
