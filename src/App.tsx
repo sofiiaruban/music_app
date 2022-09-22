@@ -3,7 +3,7 @@ import './App.css';
 import Auth from './components/pages/Auth';
 import Dashboard from "./components/pages/Dashboard";
 import Finalscore from './components/pages/Finalscore';
-import {BrowserRouter as Router} from "react-router-dom";
+import {HashRouter as Router} from "react-router-dom";
 import {Routes, Route } from 'react-router-dom';
 import {createContext, useMemo, useState} from 'react';
 import {ScoreContext, NameContext} from "./components/Interfaces";
