@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/music_app/static/css/main.faaa09e1.css",
+    "main.js": "/music_app/static/js/main.10fe0d5c.js",
+    "static/js/787.33c069aa.chunk.js": "/music_app/static/js/787.33c069aa.chunk.js",
+    "static/media/background-img.jpg": "/music_app/static/media/background-img.d7fb38f385758f12c3f2.jpg",
+    "static/media/small_circle.svg": "/music_app/static/media/small_circle.3cc50b7781cfdd168aa2.svg",
+    "static/media/logo.svg": "/music_app/static/media/logo.1cbcfcfe839268091b61ac6f0d7f78f9.svg",
+    "static/media/wrong-icon.svg": "/music_app/static/media/wrong-icon.9187a470b84e8d4b156a.svg",
+    "static/media/arrow-icon.svg": "/music_app/static/media/arrow-icon.e719507147ca9b5f8d2de292a5c925c2.svg",
+    "index.html": "/music_app/index.html",
+    "static/media/right-icon.svg": "/music_app/static/media/right-icon.b9c9959d65d4afef03ff.svg",
+    "main.faaa09e1.css.map": "/music_app/static/css/main.faaa09e1.css.map",
+    "main.10fe0d5c.js.map": "/music_app/static/js/main.10fe0d5c.js.map",
+    "787.33c069aa.chunk.js.map": "/music_app/static/js/787.33c069aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faaa09e1.css",
+    "static/js/main.10fe0d5c.js"
+  ]
+}
